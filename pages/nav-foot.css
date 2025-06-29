@@ -59,11 +59,13 @@ body {
 }
 
 .page:hover {
-    color: rgb(231, 133, 13);
+    color: rgb(240, 134, 5);
 }
 
 .logo{
-    
+    padding-left: 0%;
+    margin-left: 0%;
+    padding-top: 15px;
 }
 
 .nav-links {
