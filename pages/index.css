@@ -1,5 +1,5 @@
 .text-overlay {
-    margin-top: 160px;
+    margin-top: 180px;
     position: absolute;
     top: 0;
     left: 0;
@@ -57,4 +57,35 @@
     transition: transform 0.3s;
     box-shadow: 0px 8px 8px black;
     
+}
+
+@media (max-width: 768px){
+
+    .background-image {
+        width: 436px;
+        height: auto;
+    }
+
+    .text-overlay{
+         font-size: 30px;
+         padding-left: 70px;
+         margin-top: 190px;
+         color: rgb(251, 251, 251);
+    }
+
+    .p{
+        padding-left: 20px;
+        width: 400px;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .card h2{
+        padding-top: 0%;
+    }
 }
